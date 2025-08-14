@@ -60,7 +60,7 @@ function playGame() {
     
     if (humanScore === computerScore) {
         console.log(`You both win! 
-                    Results: You - ${humanScore} | COM - ${computerScore}`);
+            Results: You - ${humanScore} | COM - ${computerScore}`);
     } else if (humanScore > computerScore) {
         console.log(`You're the ultimate champion! 
             Results: You - ${humanScore} | COM - ${computerScore}`);
