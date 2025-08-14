@@ -18,5 +18,13 @@ function getComputerChoice() {
     }
 }
 
+function getHumanChoice() {
+    let choice = prompt("Choose: 'Rock', 'Paper' or 'Scissors': ");
+    return choice.toLowerCase();
+}
+
+let humanScore = computerScore = 0;
+
 // console.log(getComputerChoice());
+console.log(getHumanChoice());
 
